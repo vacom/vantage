@@ -49,7 +49,7 @@ export const removeAccents = str => {
 export const formatUsername = str => {
   str = str.replace(/\s+/g, ""); //removes the spaces
   str = str.toLowerCase(); //all the letter to lowercase
-  return module.exports._removeAccents(str); //removes all the string accents
+  removeAccents(str); //removes all the string accents
 };
 
 export const handleExpression = str => {
