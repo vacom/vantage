@@ -19,7 +19,7 @@ export const guid = () => {
 };
 
 export const generateToken = () => {
-  guid();
+  return guid();
 };
 
 export const generateExpiration = () => {
@@ -49,7 +49,7 @@ export const removeAccents = str => {
 export const formatUsername = str => {
   str = str.replace(/\s+/g, ""); //removes the spaces
   str = str.toLowerCase(); //all the letter to lowercase
-  removeAccents(str); //removes all the string accents
+  return removeAccents(str); //removes all the string accents
 };
 
 export const handleExpression = str => {
@@ -104,7 +104,7 @@ export const convertArrayOfObjectsToCSV = args => {
 
 export const downloadCSV = (args, content) => {
   var filename, link, data;
-  var csv = module.exports.convertArrayOfObjectsToCSV({
+  var csv = convertArrayOfObjectsToCSV({
     data: content
   });
   if (csv == null) return;
