@@ -2,7 +2,7 @@
 
 This library is a set of utilities created in javascript to solve some of the common problems. These are some of the functions I write over my own projects and put them here to be reused in different scenarios and projects
 
-![VantageJS](http://oi65.tinypic.com/296c0oy.jpg)
+![VantageJS](https://i.imgur.com/y9cs08b.jpg)
 
 **IMPORTANTE NOTE!** This library is very much in the process of being developed, it can be changed completely to something different. For now it is only used to share common functions in my own projects. Suggestions are welcome.
 
